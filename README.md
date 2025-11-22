@@ -3,25 +3,25 @@
 本项目基于 **Uni-App** 开发，用于构建微信小程序的宠物资讯平台。  
 
 ## 项目实现了：
-Vue模板语法
-uni-app跨端组件
-网络请求
-页面跳转
-列表渲染
-动态数据绑定
+- Vue模板语法
+- uni-app跨端组件
+- 网络请求
+- 页面跳转
+- 列表渲染
+- 动态数据绑定
 
 ## 小程序主要包含以下主要页面：
 - **index.vue**：新闻列表页  
 - **info.vue**：新闻详情展示页
 
-index.vue：
-通过网络请求uni.request向服务器请求新闻数据，请求成功后提取到newsList
-通过v-for动态渲染列表，遍历news数组，生成多条新闻项
-使用navigateTo跳转到详情页，通过URL参数传递新闻的ID
+###index.vue：
+- 通过网络请求uni.request向服务器请求新闻数据，请求成功后提取到newsList
+- 通过v-for动态渲染列表，遍历news数组，生成多条新闻项
+- 使用navigateTo跳转到详情页，通过URL参数传递新闻的ID
 
-info.vue：
-使用uni-app框架的生命周期，接收从列表页传来的新闻ID
-通过ID再次请求新闻数据，保存到detail用于展示
+###info.vue：
+- 使用uni-app框架的生命周期，接收从列表页传来的新闻ID
+- 通过ID再次请求新闻数据，保存到detail用于展示
 
 ---
 
