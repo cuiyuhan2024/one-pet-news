@@ -1,0 +1,23 @@
+{
+	"pages": [
+	    {
+	      "path": "pages/index/index",
+	      "style": {
+	        "navigationBarTitleText": "宠物新闻"
+	      }
+	    },
+	    {
+	      "path": "pages/info/info",
+	      "style": {
+	        "navigationBarTitleText": "新闻详情"
+	      }
+	    }
+	  ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
