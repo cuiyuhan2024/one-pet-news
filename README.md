@@ -14,12 +14,12 @@
 - **index.vue**：新闻列表页  
 - **info.vue**：新闻详情展示页
 
-###index.vue：
+index.vue：
 - 通过网络请求uni.request向服务器请求新闻数据，请求成功后提取到newsList
 - 通过v-for动态渲染列表，遍历news数组，生成多条新闻项
 - 使用navigateTo跳转到详情页，通过URL参数传递新闻的ID
 
-###info.vue：
+info.vue：
 - 使用uni-app框架的生命周期，接收从列表页传来的新闻ID
 - 通过ID再次请求新闻数据，保存到detail用于展示
 
@@ -34,10 +34,8 @@
 ![新闻详情展示页](/2.png)
 
 ---
-
-## 技术栈
-
-- **Uni-App**
-- **Vue**
+## API接口：
+- https://m1.apifoxmock.com/m1/7449493-7183823-default/api/cuiyuhan/news
+- 此接口只能通过国内网络访问
 
 
